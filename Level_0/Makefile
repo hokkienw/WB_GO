@@ -1,4 +1,4 @@
-.PHONY: all sub pub test
+.PHONY: all sub pub sub_sc tidy_sc pub_sc
 all:
 
 sub:
@@ -8,10 +8,6 @@ sub:
 pub:
 	clear
 	go run cmd/pub/main.go
-
-test:
-	clear
-	go test
 
 sub_sc:
 	clear
